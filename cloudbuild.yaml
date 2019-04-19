@@ -1,3 +1,9 @@
 steps:
   - name: gcr.io/cloud-builders/gsutil
     args: ["-m", "rsync", "-r", "-c", "-d", ".", "gs://uww.vavd.net"]
+  - name: gcr.io/cloud-builders/gsutil
+    args: ["-m", "rsync", "-r", "-c", "-d", ".", "gs://aww.vavd.net"]
+  - name: gcr.io/cloud-builders/gsutil
+    args: ["-m", "rsync", "-r", "-c", "-d", ".", "gs://eww.vavd.net"]
+  - name: gcr.io/cloud-builders/gsutil
+    args: ["-m", "rsync", "-r", "-c", "-d", ".", "gs://usc.vavd.net"]
