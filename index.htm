@@ -21,7 +21,7 @@ Individual File Targets<br>
 <a href=r20.gif>r20.gif</a><br>
 </p>
 
-<p>Citrix ITM is awesome!
+<p>Citrix ITM is awesome!<br>
     <a href="https://github.com/ratokeshi/CitrixITM-Radar-Target">Github</a><br> 
 </p>
 
@@ -45,7 +45,7 @@ if (typeof window.addEventListener === "function") {
         if (window.cedexis === undefined) {
             var radar = document.createElement("script");
             radar.src = "//radar.cedexis.com/1/" + id + "/radar.js";
-            document.getElementById('output1').innerHTML = (radar.src + "<br>");
+            document.getElementById('output1').innerHTML = radar.src;
             document.body.appendChild(radar);
         }
     });
